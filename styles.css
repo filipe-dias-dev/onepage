@@ -1,0 +1,39 @@
+
+
+header {
+    background-color: #D7D4FF ;
+    padding: 20px 0px;
+}
+
+header img {
+    display: ruby-text;
+    position: relative;
+    height: 359.75px;
+    text-align: right;
+    
+}
+
+@media only screen and (max-width: 480px) {
+    #img_topo {
+      width: 100%;
+    }
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 50px 10px;
+    text-align: center;
+  }
+
+  .container {
+    text-align: center;
+    height: 222px;
+    background-color: red;
+  }
+
+  .cards p {
+    text-align: center;
+    width: 300px;
+  }
