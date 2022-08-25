@@ -1,16 +1,10 @@
-
-
 header {
     background-color: #D7D4FF ;
-    padding: 20px 0px;
+    padding: 0px 0px;
 }
 
-header img {
-    display: ruby-text;
-    position: relative;
-    height: 359.75px;
-    text-align: right;
-    
+.container1 {
+  text-align: center;
 }
 
 @media only screen and (max-width: 480px) {
@@ -22,18 +16,58 @@ header img {
   .cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 50px 10px;
     text-align: center;
   }
 
-  .container {
+  .container2 {
     text-align: center;
     height: 222px;
-    background-color: red;
+    background-color: #63ECFF;
+  }
+  .container3 {
+    text-align: center;
+    height: 222px;
+    background-color: #F363FF;
   }
 
-  .cards p {
+  .container4 {
     text-align: center;
+    height: 222px;
+    background-color: #63FF73;
+  }
+
+  .container5 {
+    text-align: center;
+    height: 222px;
+    background-color: #FFDD63;
+  }
+
+  .container6 {
+    text-align: center;
+    height: 222px;
+    background-color: #6663FF;
+  }
+
+  .container7 {
+    text-align: center;
+    height: 222px;
+    background-color: #FF6363;
+  }
+  .cards p {
+    text-align: end;
+    height: 20px;
     width: 300px;
+    line-height: 20px;
+  }
+
+  .paragrafo p {
+    height: 222px;
+    text-align: start;
+    
+  }
+
+  .cards li {
+    text-decoration: none;
   }
