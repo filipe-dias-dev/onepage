@@ -8,9 +8,24 @@ header {
 }
 
 #titulo {
-  height: 95px;
+  font-family: 'Merriwather';
+  position: absolute;
+  height: 45px;
+  left: 101px;
   font-weight: 400;
   font-size: 36px;
+  top: 137.5px;
+  width: 131%
+}
+
+.texto_principal {
+  position: absolute;
+  width: 168%;
+  height: 96px;
+  left: 100px;
+  top: 250px;
+  font-family: 'Lato';
+  line-height: 32px;
 }
 
 @media only screen and (max-width: 480px) {
