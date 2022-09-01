@@ -34,45 +34,117 @@ button {
   position: relative;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin: ;
+  margin: 0 auto;
+}
+
+.titulo2 {
+  text-align: center;
+  display: flex;
+  width: 100px;
+  position: relative;
+  margin: 50px;
+  bottom: 40px;
+  justify-content: center;
+  font-size: 26px;
 }
 
 .container2 {
-  background-color: red;
+  background-color: #FF6363;
   width: 100px;
   padding: 100px;
+  margin: 50px;
+}
+
+.titulo3 {
+  text-align: center;
+  display: flex;
+  width: 100px;
+  position: relative;
+  margin: 50px;
+  bottom: 40px;
+  justify-content: center;
+  font-size: 26px;
 }
 
 .container3 {
-  background-color: red;
+  background-color: #63ECFF;
   width: 100px;
-
+  margin: 50px;
   padding: 100px;
+}
+
+.titulo4 {
+  text-align: center;
+  display: flex;
+  width: 100px;
+  position: relative;
+  margin: 50px;
+  bottom: 40px;
+  justify-content: center;
+  font-size: 26px;
 }
 
 .container4 {
-  background-color: red;
+  background-color: #F363FF;
   width: 100px;
   padding: 100px;
+  margin: 50px;
+}
+
+.titulo5 {
+  text-align: center;
+  display: flex;
+  width: 100px;
+  position: relative;
+  margin: 50px;
+  bottom: 40px;
+  justify-content: center;
+  font-size: 26px;
 }
 
 .container5 {
-  background-color: red;
+  background-color: #63FF73;
   width: 100px;
-
+  margin: 50px;
   padding: 100px;
+}
+
+.titulo6 {
+  text-align: center;
+  display: flex;
+  width: 100px;
+  position: relative;
+  margin: 50px;
+  bottom: 40px;
+  justify-content: center;
+  font-size: 26px;
 }
 
 .container6 {
   background-color: red;
   width: 100px;
-
+  margin: 50px;
   padding: 100px;
 }
 
-.container7 {
-  background-color: red;
+.titulo7 {
+  text-align: center;
+  display: flex;
   width: 100px;
+  position: relative;
+  margin: 50px;
+  bottom: 40px;
+  justify-content: center;
+  font-size: 26px;
+}
 
+.container7 {
+  background-color: #FFDD63;
+  width: 100px;
+  margin: 50px;
   padding: 100px;
+}
+
+main {
+  margin: 100px 100px;
 }
