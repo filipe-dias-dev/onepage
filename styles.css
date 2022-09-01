@@ -6,18 +6,25 @@ header {
 .container_1 {
   display: flex;
   justify-content: right;
+  padding-right: 50px;
+  align-items: center;
+  position: relative;
+  bottom: 200px;
+  right: 50px;
 }
 
 .titulo {
   font-family: "Merriwather";
   font-size: 36px;
   width: 349px;
+  padding: 50px 0px 0px 50px;
 }
 
 .texto_principal {
   width: 349px;
   font-family: "Lato";
   line-height: 32px;
+  padding: 30px 0px 0px 50px;
 }
 
 button {
@@ -27,6 +34,8 @@ button {
   background-color: #6c63ff;
   box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
   border-radius: 5px;
+  left: 50px;
+  top: 10px;
 }
 
 .cards {
@@ -34,7 +43,16 @@ button {
   position: relative;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin: 0 auto;
+  margin: auto;
+}
+
+.paragrafo2 {
+  display: flex;
+  text-align: center;
+  width: 40%;
+  position: relative;
+  padding-left: 40px;
+  bottom: 60px;
 }
 
 .titulo2 {
@@ -49,10 +67,19 @@ button {
 }
 
 .container2 {
-  background-color: #FF6363;
-  width: 100px;
-  padding: 100px;
-  margin: 50px;
+  background-color: #ff6363;
+  width: 90px;
+  padding: 90px;
+  margin: 30px;
+}
+
+.paragrafo3 {
+  display: flex;
+  text-align: center;
+  width: 40%;
+  position: relative;
+  padding-left: 40px;
+  bottom: 60px;
 }
 
 .titulo3 {
@@ -67,10 +94,19 @@ button {
 }
 
 .container3 {
-  background-color: #63ECFF;
-  width: 100px;
-  margin: 50px;
-  padding: 100px;
+  background-color: #63ecff;
+  width: 90px;
+  margin: 30px;
+  padding: 90px;
+}
+
+.paragrafo4 {
+  display: flex;
+  text-align: center;
+  width: 40%;
+  position: relative;
+  padding-left: 40px;
+  bottom: 60px;
 }
 
 .titulo4 {
@@ -85,10 +121,19 @@ button {
 }
 
 .container4 {
-  background-color: #F363FF;
-  width: 100px;
-  padding: 100px;
-  margin: 50px;
+  background-color: #f363ff;
+  width: 90px;
+  padding: 90px;
+  margin: 30px;
+}
+
+.paragrafo5 {
+  display: flex;
+  text-align: center;
+  width: 40%;
+  position: relative;
+  padding-left: 40px;
+  bottom: 60px;
 }
 
 .titulo5 {
@@ -103,16 +148,25 @@ button {
 }
 
 .container5 {
-  background-color: #63FF73;
-  width: 100px;
-  margin: 50px;
-  padding: 100px;
+  background-color: #63ff73;
+  width: 90px;
+  margin: 30px;
+  padding: 90px;
+}
+
+.paragrafo6 {
+  display: flex;
+  text-align: center;
+  width: 40%;
+  position: relative;
+  padding-left: 40px;
+  bottom: 60px;
 }
 
 .titulo6 {
   text-align: center;
   display: flex;
-  width: 100px;
+  width: 90px;
   position: relative;
   margin: 50px;
   bottom: 40px;
@@ -122,9 +176,18 @@ button {
 
 .container6 {
   background-color: red;
-  width: 100px;
-  margin: 50px;
-  padding: 100px;
+  width: 90px;
+  margin: 30px;
+  padding: 90px;
+}
+
+.paragrafo7 {
+  display: flex;
+  text-align: center;
+  width: 40%;
+  position: relative;
+  padding-left: 40px;
+  bottom: 60px;
 }
 
 .titulo7 {
@@ -139,10 +202,10 @@ button {
 }
 
 .container7 {
-  background-color: #FFDD63;
-  width: 100px;
-  margin: 50px;
-  padding: 100px;
+  background-color: #ffdd63;
+  width: 90px;
+  margin: 30px;
+  padding: 90px;
 }
 
 main {
