@@ -4,6 +4,11 @@ header {
   width: 100%;
 }
 
+.cabecalho__titulo {
+  display: flex;
+  justify-content: center;
+}
+
 .cabecalho {
   display: inline-block;
   position: relative;
