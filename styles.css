@@ -4,8 +4,15 @@ header {
   width: 100%;
 }
 
+.cabecalho__paragrafo {
+  display: flex;
+  text-align: justify;
+  margin: 20px;
+}
+
 .cabecalho__titulo {
   display: flex;
+  padding-top: 20px;
   justify-content: center;
 }
 
