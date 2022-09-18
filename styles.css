@@ -99,3 +99,22 @@ header {
 .orange {
   background-color: orange;
 }
+
+.rodape ul {
+  display: flex;
+  width: 100%;
+  margin: 200px 0px 10px;
+}
+
+.rodape ul li {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.imagem__rodape {
+  width: 10%;
+  display: flex;
+  position: relative;
+  text-align: center;
+}
