@@ -1,6 +1,6 @@
 header {
   background-color: #d7d4ff;
-  display: block;
+  flex-wrap: wrap;
   width: 100%;
 }
 
@@ -23,7 +23,6 @@ header {
 
 .cabecalho__titulo {
   display: flex;
-  left: 20px;
 }
 
 @media screen and (min-width: 0px) {
@@ -36,3 +35,24 @@ header {
   display: flex;
   justify-content: end;
 }
+
+.cabecalho__botao {
+  padding: 5px 30px;
+  background-color: rgb(157, 157, 237);
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  justify-content: center;
+  display: flex;
+}
+
+
+#formulario {
+  display: flex;
+  position: absolute;
+  justify-content:  center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
