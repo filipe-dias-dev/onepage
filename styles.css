@@ -67,4 +67,11 @@ header {
 .caixas {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.caixas div {
+  background: red;
+  padding: 100px;
 }
