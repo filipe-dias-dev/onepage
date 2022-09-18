@@ -2,6 +2,8 @@ header {
   background-color: #d7d4ff;
   flex-wrap: wrap;
   width: 100%;
+  font-family: cursive;
+  font-size: 20px;
 }
 
 .cabecalho__paragrafo {
@@ -57,6 +59,12 @@ header {
 
 .titulo__pricipal {
   margin: 100px 0px;
-  font-size: 26px;
+  font-size: 36px;
   text-align: center;
+  font-family: cursive;
+}
+
+.caixas {
+  display: flex;
+  justify-content: space-between;
 }
