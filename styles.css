@@ -46,7 +46,6 @@ header {
   display: flex;
 }
 
-
 #formulario {
   display: flex;
   position: absolute;
@@ -56,3 +55,8 @@ header {
   align-items: center;
 }
 
+.titulo__pricipal {
+  margin: 100px 0px;
+  font-size: 26px;
+  text-align: center;
+}
